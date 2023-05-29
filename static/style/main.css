@@ -1,5 +1,157 @@
-a {
+/* General Styles */
+
+body {
+    position: relative; 
+    background-color: #0A0A0A;
     color: white;
-    margin-right: 20px;
+  }
+
+  h1 {
+    margin-left: 20pt;
+    font-family: 'Playfair Display', serif;
+    font-size: 32pt;
+  }
+
+  p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15pt;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+
+  /* Navbar */
+
+  #navbar a {
     text-decoration: none;
-}
+    color: white;
+    margin-left: 10pt;
+    margin-right: 5pt;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14pt;
+  }
+
+
+  /* Section 1: Home/Top */
+
+  #home {
+    padding-top: 50px;
+    min-height: 100vh;
+    width: 100vw;
+    background: url("../images/dark-bg.jpg");
+    background-size: 100%
+  }
+
+  #home h1 {
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 72pt;
+    font-family: 'Yatra One', cursive;
+  }
+
+  .animate-character {
+    width: 100vw;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 33%,
+      #ff1361 66%,
+      #0c9f73 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
+    display: inline-block;
+        
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }    
+
+
+  /* Section 2: Projects */
+
+  #projects {
+    padding-top:50px;
+    min-height: 100vh;
+  }
+
+
+  /* Section 3: Skills */
+
+  #skills {
+    padding-top:50px;
+    min-height: 100vh;
+  }
+
+  #skills h3 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+  }
+
+  .card-deck {
+    display:inline-block;
+    text-align: center;
+    margin: auto;
+    width: 100vw;
+  }
+
+  .float-left { 
+    float: left; 
+    width: 60vw;
+  }
+
+  .float-right {
+    float: right;
+    width: 30vw;
+  }
+
+  .card {
+    background-color: #00000000;
+    border: #00000000;
+    display:inline-block;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 7vw;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .card-title {
+    font-size: 12pt;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+
+  /* Section 4: About Me */
+
+  #about {
+    padding-top:50px;
+    min-height: 100vh;
+  }
+
+
+  /* Section 5: Contact Me */
+
+  #contact {
+    padding-top:50px;
+    min-height: 100vh;
+  }
+
+  #contact h1 {
+    text-align: center;
+    margin-left: auto;
+  }
