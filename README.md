@@ -1,9 +1,7 @@
 # Portfolio
-juliedosher.com   
+[juliedosher.com](https://juliedosher.azurewebsites.net/)   
    
    
 ### Credit:  
 Animated Header: https://alvarotrigo.com/blog/css-text-animations/  
-
-
-Light background image by rawpixel.com on Freepik.com  
+Background image: rawpixel.com on [Freepik.com](https://www.freepik.com/)  
