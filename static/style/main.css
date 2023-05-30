@@ -2,14 +2,12 @@
 
 body {
     position: relative; 
-    background-color: #0A0A0A;
-    color: white;
   }
 
   h1 {
-    margin-left: 20pt;
     font-family: 'Playfair Display', serif;
     font-size: 32pt;
+    margin-left: 20pt;
   }
 
   p {
@@ -23,30 +21,27 @@ body {
   /* Navbar */
 
   #navbar a {
-    text-decoration: none;
-    color: white;
-    margin-left: 10pt;
-    margin-right: 5pt;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14pt;
+    margin-left: 10pt;
+    margin-right: 5pt;
+    text-decoration: none;
   }
 
 
   /* Section 1: Home/Top */
 
   #home {
-    padding-top: 50px;
     min-height: 100vh;
+    padding-top: 50px;
     width: 100vw;
-    background: url("../images/dark-bg.jpg") ;
-    background-size: 100%;
   }
 
   #home h1 {
-    text-align: center;
-    margin-top: 20vh;
-    font-size: 72pt;
     font-family: 'Yatra One', cursive;
+    font-size: 72pt;
+    margin-top: 20vh;
+    text-align: center;
   }
 
   .animate-character {
@@ -81,48 +76,47 @@ body {
   /* Section 2: Projects */
 
   #projects {
-    padding-top:50px;
     min-height: 100vh;
+    padding-top:50px;
   }
 
 
   /* Section 3: Skills */
 
   #skills {
-    padding-top:50px;
     min-height: 100vh;
+    padding-top:50px;
   }
 
   #skills h3 {
-    text-align: center;
     font-family: 'Playfair Display', serif;
-
+    text-align: center;
   }
 
   .card-deck {
     display:inline-block;
-    text-align: center;
     margin: auto;
+    text-align: center;
     width: 100vw;
   }
 
   .float-left { 
     float: left; 
-    width: 65vw;
+    width: 55vw;
   }
 
   .float-right {
     float: right;
-    width: 35vw;
+    width: 45vw;
   }
 
   .card {
     background-color: #00000000;
     border: #00000000;
-    display:inline-block;
-    text-align: center;
+    display: inline-block;
     margin-left: 2vw;
     margin-right: 2vw;
+    text-align: center;
     width: 9vw;
   }
 
@@ -131,27 +125,27 @@ body {
   }
 
   .card-title {
-    font-size: 12pt;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
   }
 
 
   /* Section 4: About Me */
 
   #about {
-    padding-top:50px;
     min-height: 100vh;
+    padding-top:50px;
   }
 
 
   /* Section 5: Contact Me */
 
   #contact {
-    padding-top:50px;
     min-height: 100vh;
+    padding-top:50px;
   }
 
   #contact h1 {
-    text-align: center;
     margin-left: auto;
+    text-align: center;
   }

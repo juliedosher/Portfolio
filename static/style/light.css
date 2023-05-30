@@ -1,0 +1,13 @@
+body {
+    background-color: #F5F5F5;
+    color: black;
+}
+
+#navbar a { 
+    color: black;  
+}
+
+#home {
+    background: url("../images/light-bg.jpg");
+    background-size: 100%;
+  }
