@@ -20,6 +20,7 @@ body {
   button {
     background-color: #00000000;
     border: #00000000;
+    margin-left: 15px;
   }
 
 
@@ -35,16 +36,6 @@ body {
 
   #navbar img {
     height: 30px;
-  }
-
-  .nav-left {
-    float: left;
-    width: 90%;
-  }
-
-  .nav-right {
-    float: right;
-    width: 10%
   }
 
 
