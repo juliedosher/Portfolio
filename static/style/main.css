@@ -12,9 +12,14 @@ body {
 
   p {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15pt;
+    font-size: 17pt;
     margin-left: 60px;
     margin-right: 60px;
+  }
+
+  button {
+    background-color: #00000000;
+    border: #00000000;
   }
 
 
@@ -23,9 +28,23 @@ body {
   #navbar a {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14pt;
-    margin-left: 10pt;
-    margin-right: 5pt;
+    margin-left: 9pt;
+    margin-right: 9pt;
     text-decoration: none;
+  }
+
+  #navbar img {
+    height: 30px;
+  }
+
+  .nav-left {
+    float: left;
+    width: 90%;
+  }
+
+  .nav-right {
+    float: right;
+    width: 10%
   }
 
 

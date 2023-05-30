@@ -8,6 +8,6 @@ body {
 }
 
 #home {
-  background: url("../images/dark-bg.jpg");
-  background-size: 100%;
+    background: url("../images/dark-bg.jpg");
+    background-size: 100%;
 }

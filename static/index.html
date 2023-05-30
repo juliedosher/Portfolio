@@ -28,13 +28,24 @@
         <!-- The navbar -->
         <div id="navbar">
           <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="nav">
-            <ul class="navbar-nav">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#about">About Me</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="navbar-nav">
+              <div class="nav-left">
+                <a href="#home">Home</a>
+                <a>|</a>
+                <a href="#projects">Projects</a>
+                <a>|</a>
+                <a href="#skills">Skills</a>
+                <a>|</a>
+                <a href="#about">About Me</a>
+                <a>|</a>
+                <a href="#contact">Contact</a>
+              </div>
+
+              <div class="nav-right">
+                <a><button type="button" onclick="toggleLightMode()" title="Toggle Light Mode"><img id="modeImage" src="./images/icons/lightMode.png"></button></a>
+              </div>
+            </div>
+            
           </nav>
         </div>
   
@@ -42,7 +53,6 @@
         <div id="home">
           <div class="animate-character">
             <h1>Julie Dosher</h1>
-            <button type="button" onclick="toggleLightMode()">Toggle</button>
           </div>
         </div>
         <hr>
