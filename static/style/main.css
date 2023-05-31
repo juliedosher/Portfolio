@@ -148,9 +148,10 @@ body {
 
   #about p {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 17pt;
-    margin-left: 60px;
-    margin-right: 60px;
+    font-size: 18pt;
+    line-height: 30pt;
+    margin-left: 55px;
+    margin-right: 55px;
   }
 
 

@@ -9,6 +9,7 @@ You can find my hosted website here: [juliedosher.com](https://juliedosher.azure
    
 ### Credit:  
 Animated Header: https://alvarotrigo.com/blog/css-text-animations/  
+Website Image Preview: https://stackoverflow.com/questions/6693499/how-can-i-set-a-website-image-that-will-show-as-preview-on-facebook   
 Background Image: rawpixel.com on [Freepik.com](https://www.freepik.com/)  
 
 All other content original.
