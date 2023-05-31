@@ -10,13 +10,6 @@ body {
     margin-left: 20pt;
   }
 
-  p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 17pt;
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-
   button {
     background-color: #00000000;
     border: #00000000;
@@ -54,6 +47,12 @@ body {
     text-align: center;
   }
 
+  #home h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26pt;
+    text-align: center;
+  }
+
   .animate-character {
     width: 100vw;
     text-transform: uppercase;
@@ -71,7 +70,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 5s linear infinite;
+    animation: textclip 6s linear infinite;
     display: inline-block;
         
   }
@@ -147,6 +146,13 @@ body {
     padding-top:50px;
   }
 
+  #about p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17pt;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
 
   /* Section 5: Contact Me */
 
@@ -156,6 +162,20 @@ body {
   }
 
   #contact h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32pt;
     margin-left: auto;
+    text-align: center;
+  }
+
+  #contact h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28pt;
+    text-align: center;
+  }
+
+  #contact p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
     text-align: center;
   }

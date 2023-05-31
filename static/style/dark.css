@@ -11,3 +11,7 @@ body {
     background: url("../images/dark-bg.jpg");
     background-size: 100%;
 }
+
+#contact a {
+    color: white;
+}
