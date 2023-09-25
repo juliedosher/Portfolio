@@ -1,5 +1,6 @@
 # Portfolio
-[juliedosher.com](https://juliedosher.azurewebsites.net/)   
+[juliedosher.com](https://juliedosher.azurewebsites.net/)  
+🚧 UNDER CONSTRUCTION
 
 ## About:
 This is the repository for a simple portfolio I've made, documenting some of my projects and skills. I employed basic HTML, CSS, and Javascript to make it, and I used Bootstrap 5 as well. No templates were used in the creation of this site.
