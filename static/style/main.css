@@ -11,6 +11,12 @@ body {
     margin-left: 20pt;
   }
 
+  h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24pt;
+    text-align: center;
+  }
+
   button {
     background-color: #00000000;
     border: #00000000;
@@ -54,6 +60,12 @@ body {
     text-align: center;
   }
 
+  #home h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+  }
+
   .animate-character {
     width: 100vw;
     text-transform: uppercase;
@@ -91,14 +103,16 @@ body {
   }
 
   #projects .card-deck {
-    margin-left: 40px;
-    margin-right: 40px;
+    display: inline-block;
+    margin-left: 10vw;
+    margin-right: 10vw;
     text-align: left;
-    width: 70vw;
+    width: 90vw;
   }
 
   #projects .card {
     width: 33vw;
+    display: inline-block;
   }
 
   #projects .card-title {
@@ -111,7 +125,7 @@ body {
 
   #skills {
     min-height: 100vh;
-    padding-top:50px;
+    padding-top: 50px;
   }
 
   #skills h3 {
@@ -123,12 +137,12 @@ body {
     display:inline-block;
     margin: auto;
     text-align: center;
-    width: 99vw;
+    width: 100vw;
   }
 
   .float-left { 
     float: left; 
-    width: 59vw;
+    width: 60vw;
   }
 
   .float-right {
@@ -203,4 +217,29 @@ body {
     margin-left: auto;
     margin-top: 30px;
     text-align: center;
+  }
+
+
+  /* Projects */
+
+  .center img {
+    margin-bottom: 20px;
+    width: 40vw;
+  }
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  #about-project h1 {
+    font-size: 28pt;
+  }
+
+  #about-project p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16pt;
+    margin-left: 80px;
+    margin-right: 80px;
   }
